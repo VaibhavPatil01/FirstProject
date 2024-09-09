@@ -1,0 +1,45 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ html,body{
+    height: 100%;
+    width: 100%;
+ }
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .container{
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+ }
+
+ #bulb{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 20%;
+    top: 10%;
+    border: 1px solid black;
+    border-radius: 50%;
+ }
+
+ button{
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    height: 40px;
+    width: 80px;
+    font-family: cursive;
+    font-size: 20px;
+ }
